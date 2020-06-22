@@ -1,5 +1,5 @@
 {
-  "name": "joint_development_project",
+  "name": "base_team_project",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
