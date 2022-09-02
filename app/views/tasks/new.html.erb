@@ -3,4 +3,5 @@
   <p>タイトル：<%= f.text_field :title %></p>
   <p>内容：<%= f.text_field :content %></p>
   <%= f.submit "送信" %>
+  <%= link_to "一覧画面へ", tasks_path %>
 <% end %>
