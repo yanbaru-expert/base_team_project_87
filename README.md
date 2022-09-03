@@ -2,6 +2,13 @@
 
 チーム開発（基礎）へようこそ！
 
+## サンプルアプリの URL
+
+チーム開発（基礎）で作成するアプリのサンプルはこちらです。
+
+- [https://joint-development-project.herokuapp.com/users](https://joint-development-project.herokuapp.com/users)
+
+
 ## 開発環境
 
 - Ruby 2.7.3
