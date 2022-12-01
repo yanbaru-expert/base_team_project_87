@@ -20,6 +20,11 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end
 
+  def destroy
+    user = User.find(params[:id])
+    user.destroy
+  end
+
   def update
     user = User.find(params[:id])
     user.update(user_params)
@@ -29,4 +34,5 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:name, :age)
   end
+  
 end
